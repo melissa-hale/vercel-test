@@ -2,7 +2,7 @@ const express = require("express");
 
 const app = express();
 
-app.get("/", (req, res) => res.send("Does a new build remove the alias? :("));
+app.get("/", (req, res) => res.send("Testing something else"));
 
 app.get("/about", (req, res) => res.send("About Page Route"));
 
